@@ -1,5 +1,17 @@
-.App {
+html {
   text-align: center;
+  padding-top: 5px;
+  background-color: #6E8387;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: goldenrod
 }
 
 .App-logo {
@@ -39,4 +51,17 @@
 
 img {
   max-width: 150px;
+  border-radius: 5px;
+}
+
+.followers-div {
+  width: 15%;
+  margin: auto;
+}
+
+.card {
+  border: 1px solid black;
+  margin: 9px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px black
 }
